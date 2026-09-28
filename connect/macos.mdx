@@ -1,22 +1,19 @@
 ---
 title: "macOS"
-description: "Подключение Matrix Network на macOS."
+description: "Подключение на macOS через Happ."
 ---
 
-## Установка
-
 <Steps>
-  <Step title="Скачайте клиент">
-    Установите [Hiddify](https://github.com/hiddify/hiddify-app/releases) — файл `Hiddify-MacOS.dmg`.
+  <Step title="Установите Happ">
+    Скачайте [Happ.macOS.universal.dmg](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.macOS.universal.dmg) и перетащите Happ в «Программы». Альтернатива — [Incy](/connect/apps#incy).
   </Step>
-  <Step title="Импортируйте ключ">
-    Скопируйте ссылку-ключ. В приложении нажмите **+** → **Добавить из буфера обмена**.
+  <Step title="Добавьте подписку">
+    Скопируйте ссылку из бота [@matrix402bot](https://t.me/matrix402bot) и в Happ нажмите **+** → **Вставить из буфера**.
+  </Step>
+  <Step title="Включите TUN-режим">
+    В настройках Happ включите **TUN** и выберите ядро **sing-box**. Так через VPN пойдёт трафик всех программ, а не только браузера. При первом включении macOS попросит пароль.
   </Step>
   <Step title="Подключитесь">
-    Выберите профиль Matrix Network и нажмите кнопку подключения. При первом запуске разрешите добавление VPN-конфигурации.
+    Выберите сервер и нажмите кнопку подключения.
   </Step>
 </Steps>
-
-## Проверка
-
-Откройте [2ip.ru](https://2ip.ru) — должен отображаться IP-адрес сервера, а не ваш.

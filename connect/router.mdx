@@ -1,0 +1,39 @@
+---
+title: "Роутер OpenWRT"
+description: "VPN для всей домашней сети через Passwall2 и Xray."
+---
+
+Подходит для роутеров на OpenWRT с поддержкой ядра Xray. Все устройства в сети, включая консоли и телевизоры, работают через VPN без приложений.
+
+<Warning>
+  Настройки зависят от модели роутера и версии прошивки. Если что-то не получается — [напишите в поддержку](https://t.me/thematrixvpn?direct).
+</Warning>
+
+## Требования
+
+- OpenWRT 23.05 или новее.
+- Установлены `xray-core` и `luci-app-passwall2`. Пакеты и инструкция по установке — в [репозитории Passwall2](https://github.com/Openwrt-Passwall/openwrt-passwall2).
+- Ссылка на подписку из бота [@matrix402bot](https://t.me/matrix402bot).
+
+## Импорт подписки
+
+<Steps>
+  <Step title="Откройте Passwall2">
+    В веб-интерфейсе роутера перейдите в **Services** → **PassWall 2** → **Node Subscribe**.
+  </Step>
+  <Step title="Добавьте подписку">
+    Нажмите **Add**. В поле **Subscribe Remark** введите `Matrix`, в **Subscribe URL** вставьте ссылку на подписку. Нажмите **Save & Apply**.
+  </Step>
+  <Step title="Загрузите серверы">
+    Нажмите **Manual subscription** и дождитесь окончания. Серверы появятся в **Node List**.
+  </Step>
+  <Step title="Выберите сервер и включите">
+    В **Basic Settings** включите **Main switch**, в поле **Node** выберите сервер Alpha. Нажмите **Save & Apply**.
+  </Step>
+</Steps>
+
+Проверьте IP на [2ip.ru](https://2ip.ru) с любого устройства в сети. Для зарубежных сайтов должен отображаться IP сервера.
+
+<Tip>
+  Включите автообновление подписки в **Node Subscribe**, чтобы список серверов оставался актуальным.
+</Tip>

@@ -8,10 +8,11 @@
 docs.json        настройки сайта и навигация
 index.mdx        главная
 quickstart.mdx   быстрый старт
-connect/         инструкции по платформам
-account/         подписка и устройства
+connect/         приложения и инструкции по устройствам
+networks/        сети Alpha, Beta, Gaming
+account/         тарифы, пробный период, кабинет, рефералка
+images/          схемы (светлая и тёмная версии)
 troubleshooting.mdx, faq.mdx
-logo/, favicon.svg
 ```
 
 Новая страница = новый `.mdx` файл + строка в `navigation` в `docs.json`.

@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
   "name": "Matrix Network",
-  "description": "Документация VPN-сервиса Matrix Network",
+  "description": "Документация VPN-сервиса Matrix Network: подключение, тарифы, сети",
   "colors": {
     "primary": "#111111",
     "light": "#FAFAFA",
@@ -30,34 +30,78 @@
     "groups": [
       {
         "group": "Начало",
-        "pages": ["index", "quickstart"]
+        "pages": [
+          "index",
+          "quickstart"
+        ]
       },
       {
         "group": "Подключение",
         "pages": [
+          "connect/apps",
+          "connect/android",
+          "connect/ios",
           "connect/windows",
           "connect/macos",
           "connect/linux",
-          "connect/android",
-          "connect/ios"
+          "connect/android-tv",
+          "connect/router"
         ]
       },
       {
-        "group": "Аккаунт",
-        "pages": ["account/subscription", "account/devices"]
+        "group": "Сети",
+        "pages": [
+          "networks/alpha",
+          "networks/beta",
+          "networks/gaming"
+        ]
+      },
+      {
+        "group": "Подписка",
+        "pages": [
+          "account/pricing",
+          "account/trial",
+          "account/cabinet",
+          "account/referral"
+        ]
       },
       {
         "group": "Помощь",
-        "pages": ["troubleshooting", "faq"]
+        "pages": [
+          "troubleshooting",
+          "faq"
+        ]
       }
     ]
   },
   "footer": {
     "socials": {
-      "telegram": "https://t.me/"
+      "telegram": "https://t.me/thematrixvpn"
     }
   },
   "search": {
     "prompt": "Поиск по документации"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Канал",
+        "href": "https://t.me/thematrixvpn"
+      },
+      {
+        "label": "Поддержка",
+        "href": "https://t.me/thematrixvpn?direct"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Открыть бота",
+      "href": "https://t.me/matrix402bot"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy"
+    ]
   }
 }
