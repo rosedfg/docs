@@ -1,0 +1,8 @@
+/* Скрыть AI-ассистента */
+#assistant-entry,
+#assistant-entry-mobile,
+#chat-assistant-sheet,
+.chat-assistant-sheet,
+.chat-assistant-floating-input {
+  display: none !important;
+}
