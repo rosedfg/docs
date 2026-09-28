@@ -12,3 +12,9 @@
 #page-context-menu-button {
   display: none !important;
 }
+
+/* Крупнее логотип в шапке */
+.nav-logo {
+  height: 2.5rem !important;
+  width: auto !important;
+}
