@@ -6,3 +6,9 @@
 .chat-assistant-floating-input {
   display: none !important;
 }
+
+/* Скрыть меню «Copy page» */
+#page-context-menu,
+#page-context-menu-button {
+  display: none !important;
+}
