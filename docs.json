@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
   "name": "The Matrix [VPN]",
-  "description": "Документация VPN-сервиса The Matrix [VPN]: подключение, тарифы, сети",
+  "description": "Документация VPN-сервиса The Matrix: подключение, тарифы, сети и реферальная программа.",
   "colors": {
     "primary": "#00FF41",
     "light": "#00FF41",
@@ -98,6 +98,17 @@
       "type": "button",
       "label": "Открыть бота",
       "href": "https://t.me/matrix402bot"
+    }
+  },
+  "seo": {
+    "metatags": {
+      "og:site_name": "The Matrix [VPN]",
+      "og:image": "https://matrixnetwork.top/docs/images/og.jpg",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:locale": "ru_RU",
+      "twitter:card": "summary_large_image",
+      "twitter:image": "https://matrixnetwork.top/docs/images/og.jpg"
     }
   }
 }
