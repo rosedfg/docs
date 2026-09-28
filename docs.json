@@ -4,21 +4,22 @@
   "name": "The Matrix [VPN]",
   "description": "Документация VPN-сервиса The Matrix [VPN]: подключение, тарифы, сети",
   "colors": {
-    "primary": "#111111",
-    "light": "#FAFAFA",
-    "dark": "#111111"
+    "primary": "#00FF41",
+    "light": "#00FF41",
+    "dark": "#00C832"
   },
   "background": {
     "color": {
-      "light": "#FFFFFF",
-      "dark": "#0A0A0A"
+      "light": "#020603",
+      "dark": "#020603"
     }
   },
   "fonts": {
-    "family": "Inter"
+    "family": "JetBrains Mono"
   },
   "appearance": {
-    "default": "system"
+    "default": "dark",
+    "strict": true
   },
   "logo": {
     "light": "/logo/light.svg",

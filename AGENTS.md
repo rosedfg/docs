@@ -16,7 +16,8 @@
 
 ## Style preferences
 
-- Minimalist: short pages, no decorative elements, monochrome palette
+- Minimalist: short pages, no decorative elements
+- Visual theme: The Matrix — phosphor green on deep black, monospace, CRT scanlines, halftone dots (see `style.css`)
 - Use active voice and address the reader as «вы»
 - Keep sentences concise — one idea per sentence
 - Use sentence case for headings
