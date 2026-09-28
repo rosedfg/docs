@@ -1,7 +1,3 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
-
 # Documentation project instructions
 
 ## About this project
@@ -14,14 +10,14 @@
 
 ## Terminology
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- Product name: **Matrix Network** (VPN service)
+- Documentation language: Russian
+- Use «ключ» / «ссылка-ключ» for the subscription access link, «клиент» for the VPN app
 
 ## Style preferences
 
-{/* Add any project-specific style rules below */}
-
-- Use active voice and second person ("you")
+- Minimalist: short pages, no decorative elements, monochrome palette
+- Use active voice and address the reader as «вы»
 - Keep sentences concise — one idea per sentence
 - Use sentence case for headings
 - Bold for UI elements: Click **Settings**
@@ -29,5 +25,5 @@
 
 ## Content boundaries
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- Document only end-user setup, subscription, and troubleshooting
+- Don't document server infrastructure or internal admin tools
