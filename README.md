@@ -1,6 +1,6 @@
-# Matrix Network Docs
+# The Matrix [VPN] Docs
 
-Документация VPN-сервиса Matrix Network на [Mintlify](https://mintlify.com).
+Документация VPN-сервиса The Matrix [VPN] на [Mintlify](https://mintlify.com).
 
 ## Структура
 

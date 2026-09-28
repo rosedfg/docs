@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
-  "name": "Matrix Network",
-  "description": "Документация VPN-сервиса Matrix Network: подключение, тарифы, сети",
+  "name": "The Matrix [VPN]",
+  "description": "Документация VPN-сервиса The Matrix [VPN]: подключение, тарифы, сети",
   "colors": {
     "primary": "#111111",
     "light": "#FAFAFA",

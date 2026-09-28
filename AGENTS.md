@@ -10,7 +10,7 @@
 
 ## Terminology
 
-- Product name: **Matrix Network** (VPN service)
+- Product name: **The Matrix [VPN]** (VPN service)
 - Documentation language: Russian
 - Use «ключ» / «ссылка-ключ» for the subscription access link, «клиент» for the VPN app
 
