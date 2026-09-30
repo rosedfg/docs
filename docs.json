@@ -28,7 +28,7 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "groups": [
+    "pages": [
       {
         "group": "Начало",
         "pages": [
@@ -70,9 +70,11 @@
         "group": "Помощь",
         "pages": [
           "troubleshooting",
-          "faq"
+          "faq",
+          "programmy-i-igry-bez-vpn"
         ]
-      }
+      },
+      "untitled-page"
     ]
   },
   "footer": {
