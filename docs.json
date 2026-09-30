@@ -70,11 +70,15 @@
         "group": "Помощь",
         "pages": [
           "troubleshooting",
-          "faq",
-          "programmy-i-igry-bez-vpn"
+          "faq"
         ]
       },
-      "untitled-page"
+      {
+        "group": "Полезные советы",
+        "pages": [
+          "programmy-i-igry-bez-vpn"
+        ]
+      }
     ]
   },
   "footer": {
